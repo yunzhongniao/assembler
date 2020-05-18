@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.yunzhong.assembler.dao.DictDBMapper">
+    <resultMap id="BaseResultMap"
+        type="org.yunzhong.assembler.model.Dict">
+    </resultMap>
+
+    <select id="getByCategory" resultMap="BaseResultMap">
+        select * from ab_dict
+        where category = #{category}
+    </select>
+</mapper>
