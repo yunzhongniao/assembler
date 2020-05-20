@@ -6,6 +6,10 @@ import org.yunzhong.assembler.dao.DictDBMapper;
 import org.yunzhong.assembler.model.Dict;
 import org.yunzhong.assembler.service.DictDBService;
 
+/**
+ * @author yunzhong
+ *
+ */
 public class DictDBServiceImpl implements DictDBService {
 
     private DictDBMapper dictMapper;

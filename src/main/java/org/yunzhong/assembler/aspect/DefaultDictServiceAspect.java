@@ -4,6 +4,10 @@ import java.lang.reflect.Method;
 
 import org.springframework.aop.AfterReturningAdvice;
 
+/**
+ * @author yunzhong
+ *
+ */
 public class DefaultDictServiceAspect implements AfterReturningAdvice{
 
     @Override

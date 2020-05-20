@@ -2,6 +2,10 @@ package org.yunzhong.assembler.model;
 
 import lombok.Data;
 
+/**
+ * @author yunzhong
+ *
+ */
 @Data
 public class Dict {
 
